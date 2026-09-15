@@ -127,7 +127,7 @@ def generate_svg(
     svg_styles = {
         ".pillar-bg": "{ fill: #343131; stroke: #000000; stroke-width: 2px; rx: 12px; ry: 12px; }",
         # Override background or individual pillars by creating a selector ".pillar-bg-N"
-        ".pillar-bg-5": "{ fill: #883131; stroke: #000000; stroke-width: 2px; rx: 12px; ry: 12px; }",
+        ".pillar-bg-5": "{ fill: #008080; stroke: #000000; stroke-width: 2px; stroke-dasharray: 8 5; rx: 12px; ry: 12px; }",
         ".pillar-title": "{ font-size: 16px; font-weight: bold; fill: #ffffff; text-anchor: middle; }",
         ".card-bg": "{ fill: #2980b9; stroke: #000000; stroke-width: 1.5px; rx: 8px; ry: 8px; }",
         ".card-text": "{ font-size: 13.5px; font-weight: bold; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }",
